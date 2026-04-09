@@ -15,6 +15,6 @@
 - **10_audit_check.sh** — Verification script. Run it after applying hardening to get a PASS/FAIL/WARN report across SSH, sysctl, file permissions, services, firewall, and password policy.
 
 ## Usage:
-`sudo bash 00_run_all.sh
-sudo bash 10_audit_check.sh   # verify`
+`sudo bash 00_run_all.sh`
+`sudo bash 10_audit_check.sh   # verify`
 
